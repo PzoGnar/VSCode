@@ -10,10 +10,10 @@
 <body>
     <main id="contenedorGeneral">
         <!-- Encabezado o Header -->
-    <header>
+    <header class="encabezadoPagina">
         <section class="contenedorLogo">
             <img src="imagenes/umbrella.jpeg">
-            <h3> istp Argentina</h3>
+            <h3> ISTP Argentina</h3>
         </section>
         <nav>
             <!-- acá se creará el menú -->
@@ -26,17 +26,105 @@
         </section>
     </header>
     <!-- cuerpo section -->
-     <section class="cuerpoPagina">
-
-        <section class="section">
-        <h1>Practica Fiweb I-A-40</h1>
+    <section class="cuerpoPagina">
+        <section class="seccion seccionEspecial">
+        <h1 id="tituloGeneral">Practica Fiweb I-A-40</h1>
         <p>
-            Esta es uba pagina de ejemplo que demuestra
+            Esta es una página de ejemplo que demuestra el uso de diferentes elementos HTML y propiedades CSS en el diseño web. A continuación, verás ejemplos de encabezados, párrafos, listas y más.
         </p>
         </section>
-     </section>
+        <section class="seccion">
+            <h2>Ejemplos de Encabezados</h2>
+            <p>
+                Los encabezados van desde h1 (el más importante) hasta h6 (el menos importante). cada uno tiene un estilo diferente en esta página:
+            </p>
+            <h1>Este es un encabezado h1</h1>
+            <h2>Este es un encabezado h2</h2>
+            <h3>Este es un encabezado h3</h3>
+            <h4>Este es un encabezado h4</h4>
+            <h5>Este es un encabezado h5</h5>
+            <h6>Este es un encabezado h6</h6>
+        </section>
+        <section class="seccion">
+            <h2>Parrafo</h2>
+            <p>
+                este es un párrafo normal. los párrafos se utilizan para mostrar bloques de texto en una página web. En este ejemplo, hemos configurado el tamaño de la fuente, el espaciado entre íneas y la alienación del texto.
+            </p>
+            <p class="parrafoEspecial">
+                Este es un párrafo con estilo especial que tiene un color de fonde, un color diferente y utiliza una fuente monoespaciada, También tiene relleno y bordes redondeados.
+            </p>
+            <p>En los párrafos puedes incluir <b>texto en negrita</b>, <i>texto en cursiva</i>, <u>texto subrayado</u>, <mark>texto resaltado</mark>, <small>texto pequeño </small>, texto <sup>superíndice </sup>y texto <sub>subíndice</sub></p>
+        </section>
+        <section class="seccion">
+            <h2>Ejemplos de Listas Ordenadas</h2>
+            <p>
+                Una lista ordenada(ol) muestra elementos en un orden específico, numerados automaticamente:
+            </p>
+            <ol>
+                <li>Primer elemento de la lista ordenada</li>
+                <li>Segundo elemento de la lista ordenada</li>
+                <li>Tercer elemento de la lista ordenada</li>
+                <li>Cuarto elemento de la lista ordenada</li>
+                <li>Quinto elemento de la lista ordenada</li>
+            </ol>
+        </section>
+        <section class="seccion">
+            <h2>Ejemplos de Listas Desordenadas</h2>
+            <p>
+                Una lista desordenada (ul) muestra elementos sin un orden específico, con viñetas:
+            </p>
+            <ul>
+                <li>Primer elemento de la lista desordenada</li>
+                <li>Segundo elemento de la lista desordenada</li>
+                <li>Tercer elemento de la lista desordenada</li>
+                <li>Cuarto elemento de la lista desordenada</li>
+                <li>Quinto elemento de la lista desordenada</li>
+            </ul>
+        </section>
+        <section class="seccion">
+            <h2>Ejemplo de Imagen</h2>
+            <div class="contenedorImagen">
+                <img src="imagenes/umbrella.jpeg" alt="logo">
+            </div>
+            <div class="contenedorImagen">
+                <img src="imagenes/batman.jpeg" alt="logo">
+            </div>
+            <p>Esta imagen tiene un borde azul y esquinas redondeadas gracias al CSS aplicado</p>
+        </section>
+        <section class="seccion">
+            <h2>Elementos Especiales de Texto</h2>
+            <p>
+                Aquí hay algunos ejemplos de elementos especiales de texto:
+            </p>
+            <ul>
+                <li><b>texto en negrita</b> usando la etiqueta b</li>
+                <li><strong>texto importante</strong> usando la etiqueta strong</li>
+                <li><i>texto en cursiva</i> usando la etiqueta i</li>
+                <li><u>texto subrayado</u> usando la etiqueta u</li>
+                <li><mark>texto resaltado</mark> usando la etiqueta mark</li>
+                <li><del>texto tachado</del> usando la etiqueta del</li>
+                <li><ins>texto insertado</ins> usando la etiqueta ins</li>
+                <li>texto <sub>subíndice</sub> usando la etiqueta sub</li>
+                <li>texto <sup>subíndice</sup> usando la etiqueta sup</li>
+                <li><code>Código</code> usando la etiqueta code</li>
+                <li><kbd>Tecla de entrada</kbd> usando la etiqueta kbd</li>
+            </ul>
+        </section>
+        <section class="seccion">
+            <h2>Combinación de Elementos</h2>
+            <p>A continuación, una combinación de varios elementos y estilos:</p>
+            <h3>Lista con Diferentes Estilos</h3>
+
+            <ol>
+                <li><span class="parrafoEspecial">Elemento destacado</span> este elemento tiene un estilo especial</li>
+                <li>Elemento con <i>texto en cursiva </i>y <b>texto en negrita</b></li>
+                <li><mark>Elemento con texto resaltado</mark></li>
+            </ol>
+            <p class="parrafo-especial">Este es el <b>párrafo final</b> de nuestra página de ejemplo. Como puedes ver, hemos utilizado <i>diferentes estilos</i> y elementos HTML para crear una página web <u>visualmente interesante</u> y bien estructurada.</p>
+        </section>
+    </section>
     <!-- pie de pagina o footer -->
-    <footer>
+    <footer class="piePagina">
         <p>LABEBA © 2025 <img src="imagenes/omega.png">- Práctica de Diseño Web - Unicamente para fines educativos</p>
     </footer>
     </main>
