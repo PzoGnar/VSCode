@@ -1,3 +1,55 @@
-body{
-    background-color: aquamarine;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contenedorGeneral{
+background-color: #f0f0f0;
+.encabezadoPagina{
+    background-color: rgb(140, 140, 222);
+}
+.cuerpoPagina{
+    background-color: aqua;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    .seccion{
+        background-color: rgb(249, 214, 161);
+        margin: 0px 20px 20px 20px;
+        padding: 15px 15px 15px 30px;
+        text-align: justify;
+        border: 3px solid black;
+        border-radius: 10px;
+        #tituloGeneral{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 40px;
+            color: darkblue;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .contenedorImagen{
+            width: 100px;
+            height: 60px;
+            border-radius: 10px;
+            background-color: darkgrey;
+            margin: 10px 0px 0px 0px;
+            padding: 5px 5px 5px 5px;
+            img{
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+    .seccionEspecial{
+        background-color: rosybrown;
+        margin-top: 30px;
+    }
+}
+.piePagina{
+    background-color: rgb(130, 180, 175);
+    img{
+        width: 100px;
+}
+}
 }
